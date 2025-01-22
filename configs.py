@@ -10,7 +10,7 @@ class Config:
     API_HASH = getenv("API_HASH", "224843ccab4fcf3ed9b07353b269ea4e")
     BOT_TOKEN = getenv("BOT_TOKEN", "8152321101:AAEjlvLz31CRUvS-gSfiqOhzPbnstLnfD1I")
     FSUB = getenv("FSUB", "alpha_movies_webseries")
-    CHID = int(getenv("CHID", ""))
+    CHID = int(getenv("CHID", "-1002439634107"))
     SUDO = list(map(int, getenv("SUDO", "768991544").split()))
     MONGO_URI = getenv("MONGO_URI", "")
     
