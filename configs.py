@@ -12,7 +12,7 @@ class Config:
     FSUB = getenv("FSUB", "alpha_movies_webseries")
     CHID = int(getenv("CHID", "-1002439634107"))
     SUDO = list(map(int, getenv("SUDO", "768991544").split()))
-    MONGO_URI = getenv("MONGO_URI", "")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://okmjbhai:J3JsrPnIORAPwMvp@cluster0.qxtio.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
